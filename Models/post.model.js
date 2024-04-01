@@ -14,6 +14,10 @@ const postSchema=mongoose.Schema({
     points:{
         type:Number,
         required:true,
+    },
+    link:{
+        type:String,
+        required:true,
     }
      
 
