@@ -15,11 +15,10 @@ const postSchema=mongoose.Schema({
         type:Number,
         required:true,
     },
-    link:{
+    xlink:{
         type:String,
-        required:true
+        required:true,
     }
-     
 
 })
 
