@@ -5,7 +5,7 @@ const bcrypt = require("bcrypt");
 const { PostModel } = require("../Models/post.model");
 async function AddPost(req, res) {
     const payload  = req.body;
-    console.log(payload)
+    console.log(payload,"why")
     try {
         const post = new PostModel(payload);
 

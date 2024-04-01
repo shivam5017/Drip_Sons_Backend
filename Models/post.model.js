@@ -17,8 +17,8 @@ const postSchema=mongoose.Schema({
     },
     xlink:{
         type:String,
-        required:true,
-    }
+        require:true,
+    },
 
 })
 
